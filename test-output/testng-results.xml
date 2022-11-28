@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login suite" duration-ms="21200" started-at="2022-11-28T19:45:54 IST" finished-at="2022-11-28T19:46:15 IST">
+    <groups>
+    </groups>
+    <test name="BothCorrect" duration-ms="6719" started-at="2022-11-28T19:45:54 IST" finished-at="2022-11-28T19:46:01 IST">
+      <class name="org.UsingTestNGParameters.BothCorrect">
+        <test-method status="PASS" signature="loginWithBothCorrect(java.lang.String, java.lang.String)[pri:0, instance:org.UsingTestNGParameters.BothCorrect@69a3d1d]" name="loginWithBothCorrect" duration-ms="6680" started-at="2022-11-28T19:45:54 IST" finished-at="2022-11-28T19:46:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothCorrect -->
+      </class> <!-- org.UsingTestNGParameters.BothCorrect -->
+    </test> <!-- BothCorrect -->
+    <test name="BothIncorrect" duration-ms="3741" started-at="2022-11-28T19:46:01 IST" finished-at="2022-11-28T19:46:04 IST">
+      <class name="org.UsingTestNGParameters.BothIncorrect">
+        <test-method status="PASS" signature="loginWithBothIncorrect(java.lang.String, java.lang.String)[pri:0, instance:org.UsingTestNGParameters.BothIncorrect@26a7b76d]" name="loginWithBothIncorrect" duration-ms="3738" started-at="2022-11-28T19:46:01 IST" finished-at="2022-11-28T19:46:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBothIncorrect -->
+      </class> <!-- org.UsingTestNGParameters.BothIncorrect -->
+    </test> <!-- BothIncorrect -->
+    <test name="CorrectPassword" duration-ms="6989" started-at="2022-11-28T19:46:04 IST" finished-at="2022-11-28T19:46:11 IST">
+      <class name="org.UsingTestNGParameters.CorrectPassword">
+        <test-method status="PASS" signature="loginWithCorrectPassword(java.lang.String, java.lang.String)[pri:0, instance:org.UsingTestNGParameters.CorrectPassword@45820e51]" name="loginWithCorrectPassword" duration-ms="6987" started-at="2022-11-28T19:46:04 IST" finished-at="2022-11-28T19:46:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectPassword -->
+      </class> <!-- org.UsingTestNGParameters.CorrectPassword -->
+    </test> <!-- CorrectPassword -->
+    <test name="CorrectUserName" duration-ms="3720" started-at="2022-11-28T19:46:11 IST" finished-at="2022-11-28T19:46:15 IST">
+      <class name="org.UsingTestNGParameters.CorrectUserName">
+        <test-method status="PASS" signature="loginWithCorrectUserName(java.lang.String, java.lang.String)[pri:0, instance:org.UsingTestNGParameters.CorrectUserName@5bcea91b]" name="loginWithCorrectUserName" duration-ms="3718" started-at="2022-11-28T19:46:11 IST" finished-at="2022-11-28T19:46:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectUserName -->
+      </class> <!-- org.UsingTestNGParameters.CorrectUserName -->
+    </test> <!-- CorrectUserName -->
+  </suite> <!-- Login suite -->
+</testng-results>
